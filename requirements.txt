@@ -1,0 +1,9 @@
+transformers
+peft
+trl
+datasets
+accelerate
+torchao>=0.16.0
+bitsandbytes
+liger-kernel
+huggingface_hub
