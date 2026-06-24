@@ -30,7 +30,9 @@ This model was trained using Supervised Fine-Tuning (SFT) via QLoRA (4-bit quant
 - **Model type:** Causal Language Model (Fine-tuned via QLoRA)
 - **Language(s) (NLP):** Vietnamese (vi), English (en)
 - **License:** Apache 2.0
-- **Finetuned from model:** Qwen/Qwen2.5-7B-Instruct
+- **Finetuned from model:** [Qwen/Qwen2.5-7B-Instruct](https://huggingface.co/Qwen/Qwen2.5-7B-Instruct)
+- **Hugging Face Model:** [NotIsora/Qwen2.5-7B-Chef-VN](https://huggingface.co/NotIsora/Qwen2.5-7B-Chef-VN)
+- **Hugging Face Dataset:** [AkashPS11/recipes_data_food.com](https://huggingface.co/datasets/AkashPS11/recipes_data_food.com)
 
 ## Uses
 
@@ -109,7 +111,7 @@ print(response)
 ## Training Details
 
 ### Training Data
-The model was trained on a processed subset of AkashPS11/recipes_data_food.com. The source raw data rows were dynamically unrolled, cleaned of syntax fragments, combined via structural mapping vectors, and injected into specialized system/user/assistant token blocks.
+The model was trained on a processed subset of [AkashPS11/recipes_data_food.com](https://huggingface.co/datasets/AkashPS11/recipes_data_food.com). The source raw data rows were dynamically unrolled, cleaned of syntax fragments, combined via structural mapping vectors, and injected into specialized system/user/assistant token blocks.
 
 ### Training Procedure
 
