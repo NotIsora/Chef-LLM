@@ -59,7 +59,7 @@ from peft import PeftModel
 
 # Configuration
 BASE_MODEL_ID = "Qwen/Qwen2.5-7B-Instruct"
-LORA_WEIGHTS_ID = "your-username/Qwen2.5-7B-Chef-VN"  # Update with your HF path
+LORA_WEIGHTS_ID = "NotIsora/Qwen2.5-7B-Chef-VN" 
 
 # Load Tokenizer
 tokenizer = AutoTokenizer.from_pretrained(LORA_WEIGHTS_ID)
